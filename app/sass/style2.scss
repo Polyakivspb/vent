@@ -1,0 +1,152 @@
+@import "fonts.scss";
+
+.page
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue';
+	font-size: 18px;
+}
+.container
+{
+	min-width: 1200px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.clear
+{
+	clear: both;
+}
+
+
+
+// Типографика
+.heading
+{
+	font-size: 72px;
+	text-align: center;
+	color: #fff;
+	margin-top: 4.5em;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	margin-bottom: 0;
+	line-height: 1;
+
+}
+
+.subheading
+{
+	margin-top: 1em;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 300;
+	color: rgba(0,0,0,.8);
+	
+
+}
+// Типографика
+
+
+
+// Формы
+.button
+{
+	background: #2b894e;
+	border: 0;
+	outline: none;
+	font-size: 30px;
+	color: #fff;
+	padding: 1em 2em 1em 2em;	
+	border-radius: 3px;
+	text-shadow: 0 1px 3px rgba(0,0,0,.3);
+	background-color: #FFE327;
+	border-bottom: 3px solid #E7C345;
+	background-image: linear-gradient(to bottom, #F09819, #d5052a);
+	border-bottom: 3px solid #9a0721;
+}
+// Формы
+
+
+
+// Первый экран
+.first
+{
+	background: url(../img/bg2.jpg);
+	background-position: center;
+	background-position: center -40px;
+	background-repeat: no-repeat;
+	height:900px;
+
+	&__button
+	{
+		text-align: center;
+		margin-top: 5em;
+	}
+}
+
+// Хедер
+.header
+{
+	padding-top: 1em;
+	&__logo
+	{
+		float: left;
+	}
+
+	&__contacts
+	{
+		float: right;
+	}
+
+	&__menu
+	{
+		display: inline-block;
+	}
+
+	&__phone
+	{
+		font-size: 36px;
+		font-weight: bold;
+	}
+
+	&__hours
+	{
+		text-align: right;
+		font-weight: 300;
+		font-size: 20px;
+	}
+}
+.logo
+{
+	&__img
+	{
+		height: 60px;
+		width: 60px;
+		background: url("../img/logo.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		float: left;
+	}
+
+	&__text
+	{
+
+		margin-left: 0.5em;
+		font-size: 30px;
+		float: left;
+		font-weight: bold;
+	}
+	&__description
+	{
+		margin-top: 5px;
+		font-size: 20px;
+		// float: left;
+		font-weight: 300;
+		line-height: 1.2;
+		// margin-left: 1em;
+	}
+}
+
+// Хедер
+
+// Первый экран
+
